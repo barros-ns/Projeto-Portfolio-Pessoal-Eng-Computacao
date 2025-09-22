@@ -1,0 +1,113 @@
+/* CSS GERAL */
+
+
+html{
+    background: linear-gradient(#BCA973, #CDBE96);
+    background-repeat: no-repeat;
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+header>h1{
+    flex-grow: 1;
+    text-align: center;
+}
+
+nav{
+    margin-left: 20px;
+}
+
+
+/* ------------------------ CSS - Index ------------------------ */
+
+/* Tags */
+
+
+header{
+    margin-top: -35px;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 4em;
+    color: white;
+    margin-left: 5%;
+    font-family: "Arizonia";
+}
+
+nav{
+    display: flex;
+    width: 800px;
+    gap: 50px;
+    flex-grow: 1;
+    margin-left: 35%;
+
+    
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+button:hover{
+    color: #CDBE96;
+    background-color: white;
+}
+
+
+
+
+/* Classes */
+.navegacao{
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    background-color: #CDBE96;
+    border-radius: 5px;
+    
+}
+
+
+/* IDs */
+
+#txt_motivador{
+    width: 660px;
+    height: 50%;
+    color: white;
+    text-align: justify;
+}
+
+#txt_motivador h2{
+    font-size: 5em;
+}
+
+#txt_motivador h3{
+    font-size: 2.5em;
+}
+
+#parte_foto{
+    margin-right: 5%;
+}
+
+#parte_foto img{
+    border: solid white ;
+    border-width: 15px 20px 40px 20px;
+}
+
+#rodape{
+    text-align: center;
+    padding: 1%;
+}
