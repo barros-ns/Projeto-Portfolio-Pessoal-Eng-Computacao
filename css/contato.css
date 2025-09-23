@@ -1,0 +1,120 @@
+/* CSS GERAL */
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #2e2210    ;
+    /* border: solid 1px; */
+}
+
+html, body {
+    height: 100%;
+    background: linear-gradient(#BCA973, #CDBE96);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+header>h1{
+    flex-grow: 1;
+    text-align: center;
+    font-family: "arizonia";
+    font-size: 3em;
+}
+
+nav{
+    margin-left: 20px;
+}
+
+/* ------------------------ CSS - Sobre ------------------------ */
+
+/* Tags */
+
+
+/* Classes */
+.modelo{
+    padding: 50px;
+    /* border: solid; */
+}
+
+.modelo h2{
+    font-size: 3em;
+    text-align: center;
+}
+
+.modelo:nth-child(1){
+    text-align: center;
+}
+
+.linguagens{
+    list-style: none;
+    display: inline-flex;
+    width: 120px;
+    height: 40px;
+    margin: 5px;
+    margin-left: 20px;
+    margin-top: 35px;
+    justify-content: center;    
+    background-color: #D9D9D9;
+
+    font-size: 25px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: default;
+}
+/* IDs */
+
+#caixa{
+    /* border: solid; */
+    border-radius: 15px;
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+
+    display: flex;
+    align-items: end;
+
+    background: linear-gradient(#cdbe96, #bca973   ) ;
+}
+
+#caixa #imagem1{
+    border-radius: 0px 10px 0px 10px;
+    width: 450px;
+}
+
+#caixa2{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    margin: auto;
+}
+
+
+#caixas_linguagens{
+    display: flex;
+    width: 600px;
+    height: 200px;
+    border: solid;
+    justify-content: space-around;
+}
+
+#caixa_links{
+    display: flex;
+    border: solid;
+    flex-direction: row;
+}
+
+#linksB{
+    display: flex;
+    list-style: none;
+
+}
+
+#imagens_links img{
+    width: 40px;   
+}

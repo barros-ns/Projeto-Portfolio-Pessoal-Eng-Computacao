@@ -3,17 +3,19 @@
 *{
     padding: 0;
     margin: 0;
-    border: solid 1px;
+    color: #2e2210    ;
+    /* border: solid 1px; */
 }
 
-html{
+html, body {
+    height: 100%;
     background: linear-gradient(#BCA973, #CDBE96);
     background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 header{
     display: flex;
-    border-bottom: solid 10px;
     padding: 10px;
     align-items: center;
 }
@@ -21,8 +23,46 @@ header{
 header>h1{
     flex-grow: 1;
     text-align: center;
+    font-family: "arizonia";
+    font-size: 3em;
 }
 
 nav{
     margin-left: 20px;
 }
+
+/* ------------------------ CSS - Sobre ------------------------ */
+
+/* Tags */
+
+
+/* Classes */
+
+
+/* IDs */
+
+#parte_foto img{
+    border-radius: 20px;
+    float: left;
+    padding: 15px;
+}
+
+
+#txt_sobre{
+    font-size: 1.5em;
+    line-height: 150%;
+    text-align: justify;
+    margin-left: 15px;
+    padding-top: 8px;
+}
+
+#caixa{
+    width: 1200px;
+    margin: auto;
+}
+
+#rodape{
+    margin-top: 20px;
+    text-align: center;
+}
+

@@ -1,9 +1,13 @@
 /* CSS GERAL */
 
 
-html{
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
     background: linear-gradient(#BCA973, #CDBE96);
     background-repeat: no-repeat;
+    background-attachment: fixed; 
 }
 
 header{
@@ -49,7 +53,6 @@ nav{
     gap: 50px;
     flex-grow: 1;
     margin-left: 35%;
-
     
 }
 
@@ -60,15 +63,13 @@ button{
     text-decoration: none;
     color: white;
     padding: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 button:hover{
     color: #CDBE96;
     background-color: white;
 }
-
-
-
 
 /* Classes */
 .navegacao{
@@ -77,7 +78,6 @@ button:hover{
     text-align: center;
     background-color: #CDBE96;
     border-radius: 5px;
-    
 }
 
 
@@ -110,4 +110,5 @@ button:hover{
 #rodape{
     text-align: center;
     padding: 1%;
+    color: white;
 }
