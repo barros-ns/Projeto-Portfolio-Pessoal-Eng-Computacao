@@ -40,11 +40,16 @@ nav{
 .modelo{
     padding: 50px;
     /* border: solid; */
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
 }
 
 .modelo h2{
     font-size: 3em;
     text-align: center;
+
+    font-family: monospace;
 }
 
 .modelo:nth-child(1){
@@ -54,10 +59,10 @@ nav{
 .linguagens{
     list-style: none;
     display: inline-flex;
-    width: 120px;
+    width: 140px;
     height: 40px;
     margin: 5px;
-    margin-left: 20px;
+    margin-left: 15px;
     margin-top: 35px;
     justify-content: center;    
     background-color: #D9D9D9;
@@ -67,12 +72,17 @@ nav{
     align-items: center;
     cursor: default;
 }
+
+.linguagens:hover{
+    background-color: #2e2210;
+    color: #D9D9D9;
+}
 /* IDs */
 
 #caixa{
     /* border: solid; */
     border-radius: 15px;
-    width: 1200px;
+    width: 1400px;
     height: 700px;
     margin: auto;
 
@@ -90,31 +100,65 @@ nav{
 #caixa2{
     display: flex;
     flex-direction: column;
-    border: solid;
+    /* border: solid; */
     margin: auto;
 }
 
 
 #caixas_linguagens{
     display: flex;
-    width: 600px;
+    width: 700px;
     height: 200px;
-    border: solid;
+    /* border: solid; */
     justify-content: space-around;
+    font-family: "Lexend", sans-serif;
+
 }
 
 #caixa_links{
     display: flex;
-    border: solid;
+    /* border: solid; */
     flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 #linksB{
     display: flex;
     list-style: none;
+    flex-direction: column;
+    /* border: solid; */
+    text-align: left;
+    
 
 }
 
+#linksB li{
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 12px;
+    margin-left: 10px;
+
+    font-family: "Lexend", sans-serif;
+
+}
+
+
+#imagens_links{
+    width: 50px;   
+    /* border: solid; */
+    
+}
+
 #imagens_links img{
-    width: 40px;   
+    width: 40px;  
+    height: 40px; 
+
+    
+}
+
+
+#rodape{
+    margin-top: 70px;
+    text-align: center;
 }
