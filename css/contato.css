@@ -49,7 +49,8 @@ nav{
     font-size: 3em;
     text-align: center;
 
-    font-family: monospace;
+    font-family: "Lexend", sans-serif;
+
 }
 
 .modelo:nth-child(1){
@@ -161,4 +162,6 @@ nav{
 #rodape{
     margin-top: 70px;
     text-align: center;
+    margin-left: 60px;
+
 }
