@@ -1,6 +1,6 @@
 /* CSS GERAL */
 
-*{
+*{ /*Tira toda a formatação inicial de tudo do site*/
     padding: 0;
     margin: 0;
     color: #2e2210    ;
@@ -8,7 +8,7 @@
 }
 
 html, body {
-    height: 100%;
+    height: 100%; /*Serve para que o background possa receber o background color por inteiro, sem faltar uma parte*/
     background: linear-gradient(#BCA973, #CDBE96);
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -34,21 +34,21 @@ nav{
 /* ------------------------ CSS - Sobre ------------------------ */
 
 /* Tags */
-
+/* Nenhuma modificação de tag foi necessária além de no CSS Geral */
 
 /* Classes */
-
+/* Nenhuma modificação de class foi necessária visto que todos os elementos são únicos*/
 
 /* IDs */
 
-#parte_foto img{
+#parte_foto img{  /*Modifica especificamente a imagem do site*/
     border-radius: 20px;
     float: left;
     padding: 15px;
 }
 
 
-#txt_sobre{
+#txt_sobre{ /*Modifica o texto do site*/
     font-size: 1.5em;
     line-height: 150%;
     text-align: justify;
@@ -56,7 +56,7 @@ nav{
     padding-top: 8px;
 }
 
-#caixa{
+#caixa{ /*Determina o tamanho e o local do texto e da foto*/
     width: 1200px;
     margin: auto;
 }
