@@ -74,7 +74,7 @@ a:hover{
     width: 100%;
     height: 400px;
     border: solid 2px;
-    border-width: 4px 2px 2px 2px;
+    border-width: 2px 2px 2px 2px;
 }
 
 .projeto p{
@@ -83,20 +83,28 @@ a:hover{
     margin: 10px;
 }
 
-.falso{
+.desc{
     display: flex;
     flex-direction: column;
-    /* border: solid; */
+    border: solid;
     width: min-content;
     align-items: center;
 
     border-radius: 10px;
-    border-width: 2px 2px 2px 2px;
+    border-width: 2px 6px 6px 2px;
     margin: 50px;
 
-    width: 400px;
+    width: 500px;
 
 
+}
+.desc p{
+    font-size: 1.5em;
+    font-family: "Lexend";
+    text-align: justify;
+    line-height: 170%;
+
+    padding: 20px;
 }
 
 /* IDs */
