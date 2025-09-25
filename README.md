@@ -63,6 +63,6 @@ Este projeto é de uso educacional, criado como parte da disciplina de **Tecnolo
 
 ## 🙋‍♀️ Desenvolvido por
 
-Nicolas de Barros Santos - 255112
+Nicolas de Barros Santos - 255112    
 Turma: Engenharia da Computação - 2º Período    
 GitHub: [https://github.com/barros-ns](https://github.com/barros-ns)
